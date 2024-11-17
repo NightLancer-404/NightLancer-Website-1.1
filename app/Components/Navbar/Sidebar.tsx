@@ -8,7 +8,7 @@ const Sidebar = ({ active, setActive }: any) => {
             <div className='flex flex-col justify-center py-10 gap-8'>
                 <div className='flex justify-between items-center w-[100%] px-6'>
                     <Link to={'/'}>
-                        <img src="/Images/Logos/Nightlancer-Logo.png" alt="LOGO" className='w-16' />
+                        <img src="/Images/Logos/Nightlancer-logo.png" alt="LOGO" className='w-16' />
                     </Link>
                     <SquareX className='small_screen_cross' onClick={() => setActive(false)} />
                 </div>
@@ -20,7 +20,7 @@ const Sidebar = ({ active, setActive }: any) => {
                         <span className='group-hover:opacity-60 flex justify-between items-center'>Why Us <img src="/Images/Navbar/whyus.png" alt="Why Us" className='h-4 w-4' /></span>
                     </Link>
                     <Link to={'#aboutus'} className='group nav_item_sidebar' onClick={() => setActive(false)}>
-                        <span className='group-hover:opacity-60 flex justify-between items-center'>About <img src="/Images/Navbar/About.png" alt="About Us" className='h-4 w-4' /></span>
+                        <span className='group-hover:opacity-60 flex justify-between items-center'>About <img src="/Images/Navbar/about.png" alt="About Us" className='h-4 w-4' /></span>
                     </Link>
                     <Link to={'#services'} className='group nav_item_sidebar' onClick={() => setActive(false)}>
                         <span className='group-hover:opacity-60 flex justify-between items-center'>Services <img src="/Images/Navbar/services.png" alt="Our Services" className='h-4 w-4' /></span>
